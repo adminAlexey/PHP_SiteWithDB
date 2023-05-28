@@ -1,0 +1,8 @@
+$sql = "CREATE DATABASE testDB";
+
+$sql = "CREATE TABLE products(
+    id INT NOT NULL PRIMARY KEY,
+    name VARCHAR(30) NOT NULL,
+    discription VARCHAR(30) NOT NULL,
+    cost VARCHAR(30) NOT NULL,
+    image VARCHAR(30) NOT NULL)";
